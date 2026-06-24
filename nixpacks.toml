@@ -1,0 +1,5 @@
+[providers.php]
+date_timezone = "UTC"
+
+[phases.setup]
+nixPkgs = ["...", "php82", "php82Packages.composer"]
